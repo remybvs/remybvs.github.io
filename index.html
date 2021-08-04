@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <script src="java.js"></script>
+    <title>Remy Boekhout van Solinge // HTML assignment</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="w3-top">
+        <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing: 4px">
+            <a href="#home" class="w3-bar-item w3-button">RBVS</a>
+            <!-- Right-sided navbar links. Hide them on small screens -->
+            <div class="w3-right w3-hide-small">
+                <a href="#about" class="w3-bar-item w3-button">About</a>
+                <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Particle-->
+    <div>
+        <div id="particles-js"></div>
+        <div class="count-particles">
+            <span class="js-count-particles"></span>
+        </div>
+        <div class="center-small-head">
+            <h4>I am</h4>
+        </div>
+        <div class="center-big-head">
+            <h1>REMY</h1>
+        </div>
+
+        <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+        <script src="java.js"></script>
+    </div>
+    </div>
+
+
+    <!-- Page content -->
+    <div class="w3-content" style="max-width: 1100px">
+        <!-- About Section -->
+        <div class="w3-row w3-padding-64" id="about">
+            <div class="w3-col m6 w3-padding-large w3-hide-small">
+                <img src="/Remy.png" class="w3-round w3-image" alt="Remy" width="600" height="750" />
+            </div>
+
+            <div class="w3-col m6 w3-padding-large">
+                <h2 class="w3-left">About Me</h2>
+                <br /><br /><br /><br />
+                <p class="w3-large">
+                    Hi, I'm Remy, a 27 year old UX designer from the Netherlands. My passion is creating the most creative and innovative concepts. I've worked for over 5 years in the online marketing and concept development industry, but I always had a great passion for
+                    tech. In 2018, I decided to completely focus on tech.
+                </p>
+            </div>
+        </div>
+
+        <hr />
+
+
+
+        <!-- Contact Section -->
+        <div class="w3-container w3-padding-64" id="contact">
+            <h2>Contact</h2>
+            <br />
+            <p>
+                Would you like to have a cup of coffee and discuss ideas? Do not hesitate to contact me.
+            </p>
+            <p class="w3-text-blue-grey w3-large">
+                <b>Markerkant 10 9F, 1316AA Almere</b>
+            </p>
+            <form action="/action_page.php" target="_blank">
+                <p>
+                    <input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name" />
+                </p>
+                <p>
+                    <input class="w3-input w3-padding-16" type="email" placeholder="Email" required name="email" />
+                </p>
+                <p>
+                    <input class="w3-input w3-padding-16" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00" />
+                </p>
+                <p>
+                    <input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message" />
+                </p>
+                <p>
+                    <button class="w3-button w3-light-grey w3-section" type="submit">
+              SEND MESSAGE
+            </button>
+                </p>
+            </form>
+        </div>
+
+        <!-- End page content -->
+
+
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-center w3-light-grey w3-padding-32">
+        <p>Powered by Remy</p>
+    </footer>
+</body>
+
+</html>
